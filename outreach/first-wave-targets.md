@@ -34,7 +34,7 @@ Avoid:
 
 ## First-wave checklist
 
-1. Open 10-12 issues or emails using the correction-request template.
+1. Open a small initial batch of correction-request issues/discussions before scaling up.
 2. Track each outreach in a table with date, target, channel, status, and response.
 3. If maintainers correct a description, update `awesome-ai4s-workflows` quickly.
 4. If a maintainer objects to inclusion, revise or remove the entry immediately.
@@ -44,15 +44,15 @@ Avoid:
 
 | Date | Target | Channel | Link | Status | Notes |
 |---|---|---|---|---|---|
-| TBD | BioBB | GitHub/email | TBD | planned | Ask for biomolecular workflow feedback |
-| TBD | BioSimSpace | GitHub/email | TBD | planned | Ask for simulation interoperability feedback |
-| TBD | MDAnalysis | GitHub/email | TBD | planned | Ask for trajectory-analysis feedback |
-| TBD | OpenMM | GitHub/email | TBD | planned | Ask for local execution/environment feedback |
+| 2026-07-05 | BioBB | GitHub issue | https://github.com/bioexcel/biobb/issues/25 | sent | Asked for biomolecular workflow feedback |
+| 2026-07-05 | BioSimSpace | GitHub issue | https://github.com/OpenBioSim/biosimspace/issues/526 | sent | Asked for simulation interoperability feedback |
+| 2026-07-05 | MDAnalysis | GitHub discussion | https://github.com/MDAnalysis/mdanalysis/discussions/5417 | sent | Asked for trajectory-analysis feedback; follow-up added with manifest link |
+| 2026-07-05 | OpenMM | GitHub discussion | https://github.com/openmm/openmm/discussions/5333 | sent | Asked for local execution/environment feedback |
 | TBD | Nextflow | GitHub/discussion | TBD | planned | Ask for interop boundary feedback |
 | TBD | Snakemake | GitHub/discussion | TBD | planned | Ask for template/environment feedback |
 | TBD | Galaxy | GitHub/community | TBD | planned | Ask for reproducibility/UX feedback |
 | TBD | AiiDA | GitHub/community | TBD | planned | Ask for provenance feedback |
-| TBD | BioImage Model Zoo | GitHub/community | TBD | planned | Ask for metadata design feedback |
-| TBD | DiffDock | GitHub issue/discussion | TBD | planned | Ask for weights/GPU/license feedback |
-| TBD | ChemCrow | GitHub issue/discussion | TBD | planned | Ask for agent/tool metadata feedback |
-| TBD | Biomni | GitHub issue/discussion | TBD | planned | Ask for biomedical-agent interoperability feedback |
+| 2026-07-05 | BioImage Model Zoo | GitHub discussion | https://github.com/bioimage-io/spec-bioimage-io/discussions/763 | sent | Asked for metadata design feedback |
+| TBD | DiffDock | GitHub issue/discussion | TBD | planned | Deferred until a concrete DiffDock plugin manifest draft exists |
+| 2026-07-05 | ChemCrow | GitHub issue | https://github.com/ur-whitelab/chemcrow-public/issues/61 | sent | Asked for agent/tool metadata feedback |
+| 2026-07-05 | Biomni | GitHub issue | https://github.com/snap-stanford/Biomni/issues/305 | sent | Asked for biomedical-agent interoperability feedback |
