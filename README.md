@@ -15,3 +15,8 @@ Start with GitHub Issues and Discussions. Add Discord/Slack/Feishu only when the
 - Docs contributor
 - Maintainer
 
+## Outreach
+
+- First wave targets: `outreach/first-wave-targets.md`
+- Email template: `outreach/email-template.md`
+- Launch posts: `outreach/launch-posts.md`
