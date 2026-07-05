@@ -53,6 +53,6 @@ Avoid:
 | TBD | Galaxy | GitHub/community | TBD | planned | Ask for reproducibility/UX feedback |
 | TBD | AiiDA | GitHub/community | TBD | planned | Ask for provenance feedback |
 | 2026-07-05 | BioImage Model Zoo | GitHub discussion | https://github.com/bioimage-io/spec-bioimage-io/discussions/763 | sent | Asked for metadata design feedback |
-| TBD | DiffDock | GitHub issue/discussion | TBD | planned | Deferred until a concrete DiffDock plugin manifest draft exists |
+| 2026-07-05 | DiffDock | GitHub issue | https://github.com/gcorso/DiffDock/issues/300 | sent | Asked for weights/GPU/license/output-artifact feedback after adding a concrete manifest draft |
 | 2026-07-05 | ChemCrow | GitHub issue | https://github.com/ur-whitelab/chemcrow-public/issues/61 | sent | Asked for agent/tool metadata feedback |
 | 2026-07-05 | Biomni | GitHub issue | https://github.com/snap-stanford/Biomni/issues/305 | sent | Asked for biomedical-agent interoperability feedback |
