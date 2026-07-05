@@ -18,5 +18,7 @@ Start with GitHub Issues and Discussions. Add Discord/Slack/Feishu only when the
 ## Outreach
 
 - First wave targets: `outreach/first-wave-targets.md`
+- GitHub issue template: `outreach/github-issue-template.md`
+- Outreach tracker: `outreach/outreach-tracker.md`
 - Email template: `outreach/email-template.md`
 - Launch posts: `outreach/launch-posts.md`
