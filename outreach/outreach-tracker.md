@@ -15,7 +15,7 @@ Status values:
 |---|---|---|---|---|---|
 | BioBB | GitHub issue | sent | https://github.com/bioexcel/biobb/issues/25 | Review biomolecular workflow/template metadata | High fit for protein workflows |
 | BioSimSpace | GitHub issue | sent | https://github.com/OpenBioSim/biosimspace/issues/526 | Review molecular simulation interoperability metadata | High fit for simulation execution |
-| MDAnalysis | GitHub discussion | sent | https://github.com/MDAnalysis/mdanalysis/discussions/5417 | Review trajectory-analysis manifest/report outputs | Core MVP dependency |
+| MDAnalysis | GitHub discussion | sent | https://github.com/MDAnalysis/mdanalysis/discussions/5417 | Review trajectory-analysis manifest/report outputs | Core MVP dependency; follow-up comment added with MDAnalysis manifest link |
 | OpenMM | GitHub discussion | sent | https://github.com/openmm/openmm/discussions/5333 | Review local execution and environment metadata | Python-friendly simulation target |
 | BioImage Model Zoo | GitHub discussion | sent | https://github.com/bioimage-io/spec-bioimage-io/discussions/763 | Review model metadata design | Strong manifest precedent |
 | DiffDock | GitHub issue or discussion | planned | TBD | Review AI docking plugin metadata | Model weights/GPU/license fields |
@@ -27,6 +27,7 @@ Status values:
 | Date | Target | Status | Link | Action |
 |---|---|---|---|---|
 | 2026-07-05 | MDAnalysis | sent | https://github.com/MDAnalysis/mdanalysis/discussions/5417 | Asked for correction/feedback on trajectory-analysis metadata |
+| 2026-07-05 | MDAnalysis | sent | https://github.com/MDAnalysis/mdanalysis/discussions/5417#discussioncomment-17538776 | Added direct link to draft MDAnalysis plugin manifest |
 | 2026-07-05 | OpenMM | sent | https://github.com/openmm/openmm/discussions/5333 | Asked for correction/feedback on local execution and environment metadata |
 | 2026-07-05 | BioImage Model Zoo | sent | https://github.com/bioimage-io/spec-bioimage-io/discussions/763 | Asked for correction/feedback on scientific model metadata design |
 | 2026-07-05 | BioBB | sent | https://github.com/bioexcel/biobb/issues/25 | Asked for correction/feedback on biomolecular workflow metadata |
