@@ -46,6 +46,7 @@ Current priority:
 | Workflow | Goal | Useful feedback |
 |---|---|---|
 | `md-stability-analysis` | First BioPilot demo workflow | Example dataset, artifact handoff, report limitations |
+| `gromacs-rmsd-slurm` | Review HPC submission boundary | Slurm account/partition policy, wrapper metadata, stdout/stderr artifacts |
 | `protein-ligand-stability` | Clarify non-claims | Fallback-specific artifact handoff and binding-evidence boundaries |
 | `mutation-impact-analysis` | Tighten task boundary | Avoid claims about pathogenicity or functional proof |
 | `ptm-dynamics-analysis` | Clarify input requirements | Paired structure/trajectory assumptions |
