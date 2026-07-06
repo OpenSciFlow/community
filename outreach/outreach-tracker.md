@@ -56,4 +56,4 @@ Status values:
 | Checked at | Result |
 |---|---|
 | 2026-07-05 | No external replies yet. Issue-type outreach remains open with zero comments. Discussion-type outreach remains open; MDAnalysis has one self-comment containing the manifest link. |
-| 2026-07-06 | Model-wave outreach sent. Response status not yet checked after sending. |
+| 2026-07-06 | Model-wave outreach sent and checked. Boltz, ProteinMPNN, MACE, Protenix, and CHGNet are open with zero external comments at check time. |
