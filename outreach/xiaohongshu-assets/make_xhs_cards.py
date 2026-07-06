@@ -233,7 +233,7 @@ def card_05():
 def card_06():
     img, draw = base("现在已经开源了什么", "06 / 进展", GREEN)
     stats = [
-        ("79+", "related projects mapped"),
+        ("83+", "related projects mapped"),
         ("7", "plugin manifest drafts"),
         ("5", "workflow templates"),
         ("R0-R6", "readiness levels"),

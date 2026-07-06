@@ -29,7 +29,7 @@ Use this as a more personal, less polished launch note for Xiaohongshu.
 从蛋白质计算工作流开始，整理可复用 workflow template。
 
 3. awesome-ai4s-workflows
-整理 79+ 个 AI for Science agents、workflow engines、model hubs、HPC/local execution 和 reproducibility 相关项目。
+整理 83+ 个 AI for Science agents、workflow engines、model hubs、HPC/local execution 和 reproducibility 相关项目。
 
 4. biopilot-prototype
 作为第一个本地蛋白质计算 workflow reference prototype。
