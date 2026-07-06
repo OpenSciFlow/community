@@ -8,11 +8,11 @@ Generated outreach assets for the first OpenSciFlow Xiaohongshu post.
 
 1. cover
 2. pain points
-3. standard files
-4. local agent flow
-5. current progress
-6. boundaries
-7. contributors
+3. protocol layer
+4. GitHub organization screenshot
+5. local-agent contract screenshot
+6. current progress
+7. boundaries
 8. call to action
 
 ## Screenshots

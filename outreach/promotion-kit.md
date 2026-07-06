@@ -10,6 +10,12 @@ OpenSciFlow is an early open initiative for standardizing AI for Science tool/mo
 
 OpenSciFlow helps scientific tools, models, and agents become easier to inspect, run, cite, validate, and reproduce. It starts with lightweight `opensciflow.yaml` plugin manifests, reusable workflow templates, and a local-first reference prototype called BioPilot.
 
+## Chinese short description
+
+OpenSciFlow 是一个面向 AI for Science 的早期开源倡议，目标不是再造一个万能 AI Scientist，而是先定义一层可检查、可执行、可复现的协议层。
+
+它希望通过 `opensciflow.yaml`、workflow template 和 run record，让科研工具和模型能够被本地 Agent 安全调用、记录、引用，并在本地服务器或 HPC 环境中复现运行。
+
 ## Longer description
 
 AI for Science is producing many useful models, toolkits, and agents, but practical lab adoption is still blocked by environment setup, model-weight provenance, hardware requirements, HPC execution, unclear citations, license ambiguity, weak run records, and scientific overclaiming.
