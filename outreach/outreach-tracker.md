@@ -31,6 +31,9 @@ Status values:
 | MACE | GitHub discussion | sent | https://github.com/ACEsuit/mace/discussions/1510 | Review interatomic-potential manifest fields | Concrete manifest and review notes exist |
 | Protenix | GitHub discussion | sent | https://github.com/bytedance/Protenix/discussions/325 | Review landscape entry and future manifest fields | Entry correction request before drafting manifest |
 | CHGNet | GitHub discussion | sent | https://github.com/CederGroupHub/chgnet/discussions/251 | Review landscape entry and future manifest fields | Entry correction request before drafting manifest |
+| REINVENT4 | GitHub discussion | sent | https://github.com/MolecularAI/REINVENT4/discussions/352 | Review landscape entry and future generative-chemistry manifest fields | Entry correction request before drafting manifest |
+| MatterSim | GitHub discussion | sent | https://github.com/microsoft/mattersim/discussions/167 | Review landscape entry and future atomistic-model manifest fields | Entry correction request before drafting manifest |
+| Nucleotide Transformer | GitHub issue | sent | https://github.com/instadeepai/nucleotide-transformer/issues/146 | Review landscape entry and future sequence-model manifest fields | Entry correction request before drafting manifest |
 
 ## Outreach log
 
@@ -50,6 +53,9 @@ Status values:
 | 2026-07-06 | MACE | sent | https://github.com/ACEsuit/mace/discussions/1510 | Asked for correction/feedback on MACE manifest fields, foundation-model metadata, licenses, and applicability limits |
 | 2026-07-06 | Protenix | sent | https://github.com/bytedance/Protenix/discussions/325 | Asked for correction/feedback on Protenix landscape classification and future manifest fields |
 | 2026-07-06 | CHGNet | sent | https://github.com/CederGroupHub/chgnet/discussions/251 | Asked for correction/feedback on CHGNet landscape classification and future manifest fields |
+| 2026-07-06 | REINVENT4 | sent | https://github.com/MolecularAI/REINVENT4/discussions/352 | Asked for correction/feedback on generative chemistry landscape classification and future manifest fields |
+| 2026-07-06 | MatterSim | sent | https://github.com/microsoft/mattersim/discussions/167 | Asked for correction/feedback on atomistic model landscape classification and future manifest fields |
+| 2026-07-06 | Nucleotide Transformer | sent | https://github.com/instadeepai/nucleotide-transformer/issues/146 | Asked for correction/feedback on genomics foundation model classification and future manifest fields |
 
 ## Response checks
 
