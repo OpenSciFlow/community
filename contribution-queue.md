@@ -12,6 +12,7 @@ These are small and useful:
 - Add the canonical citation for a listed project.
 - Add missing license or model-weight metadata to one manifest.
 - Fill one R3 dry-run evidence field for `mdanalysis-trajectory-analysis`.
+- Fill one sample-data metadata field for the first BioPilot demo candidate.
 - Point out one output that users may misinterpret.
 - Add an HPC/Slurm requirement that is missing from a manifest or workflow.
 - Suggest one narrow workflow template, with inputs and expected artifacts.
@@ -48,6 +49,10 @@ Artifact handoff rules:
 
 - https://github.com/OpenSciFlow/workflow-templates/blob/main/docs/artifact-handoff-validation.md
 
+Sample-data metadata template:
+
+- https://github.com/OpenSciFlow/biopilot-prototype/blob/main/examples/protein-md-stability/sample-data-metadata-template.md
+
 ## Protocol review queue
 
 Current questions for v0.2:
@@ -77,6 +82,7 @@ Good issue titles:
 [hpc metadata] GROMACS Slurm requirements
 [safety] DiffDock output interpretation boundary
 [protocol review] v0.2 command template placeholders
+[sample data] MDAnalysisData license and citation metadata
 [landscape correction] canonical citation for <project>
 ```
 
