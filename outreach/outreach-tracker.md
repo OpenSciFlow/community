@@ -22,6 +22,16 @@ Status values:
 | ChemCrow | GitHub issue | sent | https://github.com/ur-whitelab/chemcrow-public/issues/61 | Review agent tool-use metadata | Asked only for entry correction; no integration request |
 | Biomni | GitHub issue | sent | https://github.com/snap-stanford/Biomni/issues/305 | Review biomedical agent interoperability | Asked only for entry correction; no integration request |
 
+## Model wave
+
+| Target | Repository / channel | Status | Link | Ask | Notes |
+|---|---|---|---|---|---|
+| Boltz | GitHub issue | sent | https://github.com/jwohlwend/boltz/issues/695 | Review structure/affinity model manifest fields | Concrete manifest and review notes exist |
+| ProteinMPNN | GitHub issue | sent | https://github.com/dauparas/ProteinMPNN/issues/151 | Review sequence-design manifest fields | Concrete manifest and review notes exist |
+| MACE | GitHub discussion | sent | https://github.com/ACEsuit/mace/discussions/1510 | Review interatomic-potential manifest fields | Concrete manifest and review notes exist |
+| Protenix | GitHub discussion | sent | https://github.com/bytedance/Protenix/discussions/325 | Review landscape entry and future manifest fields | Entry correction request before drafting manifest |
+| CHGNet | GitHub discussion | sent | https://github.com/CederGroupHub/chgnet/discussions/251 | Review landscape entry and future manifest fields | Entry correction request before drafting manifest |
+
 ## Outreach log
 
 | Date | Target | Status | Link | Action |
@@ -35,9 +45,15 @@ Status values:
 | 2026-07-05 | Biomni | sent | https://github.com/snap-stanford/Biomni/issues/305 | Asked for correction/feedback on Biomni's ecosystem-map classification and safety/reproducibility boundaries |
 | 2026-07-05 | ChemCrow | sent | https://github.com/ur-whitelab/chemcrow-public/issues/61 | Asked for correction/feedback on ChemCrow's ecosystem-map classification, canonical link, and usage/citation notes |
 | 2026-07-05 | DiffDock | sent | https://github.com/gcorso/DiffDock/issues/300 | Asked for correction/feedback on DiffDock manifest fields, model weights, output artifacts, and safety boundaries |
+| 2026-07-06 | Boltz | sent | https://github.com/jwohlwend/boltz/issues/695 | Asked for correction/feedback on Boltz manifest fields, MSA server disclosure, output artifacts, and affinity limitations |
+| 2026-07-06 | ProteinMPNN | sent | https://github.com/dauparas/ProteinMPNN/issues/151 | Asked for correction/feedback on ProteinMPNN manifest fields, model weights, outputs, and design limitations |
+| 2026-07-06 | MACE | sent | https://github.com/ACEsuit/mace/discussions/1510 | Asked for correction/feedback on MACE manifest fields, foundation-model metadata, licenses, and applicability limits |
+| 2026-07-06 | Protenix | sent | https://github.com/bytedance/Protenix/discussions/325 | Asked for correction/feedback on Protenix landscape classification and future manifest fields |
+| 2026-07-06 | CHGNet | sent | https://github.com/CederGroupHub/chgnet/discussions/251 | Asked for correction/feedback on CHGNet landscape classification and future manifest fields |
 
 ## Response checks
 
 | Checked at | Result |
 |---|---|
 | 2026-07-05 | No external replies yet. Issue-type outreach remains open with zero comments. Discussion-type outreach remains open; MDAnalysis has one self-comment containing the manifest link. |
+| 2026-07-06 | Model-wave outreach sent. Response status not yet checked after sending. |
