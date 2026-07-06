@@ -11,6 +11,7 @@ These are small and useful:
 - Correct one project description in `awesome-ai4s-workflows`.
 - Add the canonical citation for a listed project.
 - Add missing license or model-weight metadata to one manifest.
+- Fill one R3 dry-run evidence field for `mdanalysis-trajectory-analysis`.
 - Point out one output that users may misinterpret.
 - Add an HPC/Slurm requirement that is missing from a manifest or workflow.
 - Suggest one narrow workflow template, with inputs and expected artifacts.
@@ -27,6 +28,10 @@ Current priority:
 | `proteinmpnn-sequence-design` | Improve sequence-design boundaries | Weight sources, output artifacts, design limitations |
 | `mace-interatomic-potential` | Improve atomistic-model metadata | Model file provenance, applicability domain, hardware |
 
+R3 evidence template:
+
+- https://github.com/OpenSciFlow/plugin-manifest/blob/main/docs/r3-evidence-template.md
+
 ## Workflow review queue
 
 Current priority:
@@ -34,10 +39,32 @@ Current priority:
 | Workflow | Goal | Useful feedback |
 |---|---|---|
 | `md-stability-analysis` | First BioPilot demo workflow | Example dataset, artifact handoff, report limitations |
-| `protein-ligand-stability` | Clarify non-claims | Distinguish trajectory metrics from binding evidence |
+| `protein-ligand-stability` | Clarify non-claims | Fallback-specific artifact handoff and binding-evidence boundaries |
 | `mutation-impact-analysis` | Tighten task boundary | Avoid claims about pathogenicity or functional proof |
 | `ptm-dynamics-analysis` | Clarify input requirements | Paired structure/trajectory assumptions |
 | `conformational-ensemble-generation` | Avoid overbroad generation claims | Sampling limits and validation needs |
+
+Artifact handoff rules:
+
+- https://github.com/OpenSciFlow/workflow-templates/blob/main/docs/artifact-handoff-validation.md
+
+## Protocol review queue
+
+Current questions for v0.2:
+
+- Which command-template placeholders are safe enough for local execution?
+- How should optional workflow branches and fallback tools declare artifacts?
+- Which run-record fields are mandatory for dry runs, smoke tests, and full workflow runs?
+- What model-weight checksum and license fields are mandatory before execution?
+- Which local-agent refusal rules should become required behavior?
+
+RFC outline:
+
+- https://github.com/OpenSciFlow/docs/blob/main/reference/v0.2-rfc-outline.md
+
+Protocol status:
+
+- https://github.com/OpenSciFlow/docs/blob/main/reference/protocol-status.md
 
 ## Public issue prompts
 
@@ -46,8 +73,10 @@ Good issue titles:
 ```text
 [manifest correction] MDAnalysis output fields
 [workflow review] md-stability-analysis report limitations
+[workflow validation] fallback artifact handoff for protein-ligand-stability
 [hpc metadata] GROMACS Slurm requirements
 [safety] DiffDock output interpretation boundary
+[protocol review] v0.2 command template placeholders
 [landscape correction] canonical citation for <project>
 ```
 
