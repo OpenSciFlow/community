@@ -33,6 +33,10 @@ R3 evidence template:
 
 - https://github.com/OpenSciFlow/plugin-manifest/blob/main/docs/r3-evidence-template.md
 
+HPC/Slurm metadata guide:
+
+- https://github.com/OpenSciFlow/plugin-manifest/blob/main/docs/hpc-slurm-metadata.md
+
 ## Workflow review queue
 
 Current priority:
