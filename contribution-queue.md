@@ -13,6 +13,7 @@ These are small and useful:
 - Add missing license or model-weight metadata to one manifest.
 - Fill one R3 dry-run evidence field for `mdanalysis-trajectory-analysis`.
 - Fill one sample-data metadata field for the first BioPilot demo candidate.
+- Review the BioPilot demo request schema and minimal runner contract.
 - Review one OpenSciFlow Skill refusal case or prompt template.
 - Review the OpenSciFlow Skill Slurm/GROMACS reviewed-wrapper example.
 - Point out one output that users may misinterpret.
@@ -59,6 +60,10 @@ Artifact handoff rules:
 Sample-data metadata template:
 
 - https://github.com/OpenSciFlow/biopilot-prototype/blob/main/examples/protein-md-stability/sample-data-metadata-template.md
+
+BioPilot runner contract:
+
+- https://github.com/OpenSciFlow/biopilot-prototype/blob/main/docs/minimal-runner-contract.md
 
 ## Protocol review queue
 
