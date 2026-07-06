@@ -13,6 +13,7 @@ These are small and useful:
 - Add missing license or model-weight metadata to one manifest.
 - Fill one R3 dry-run evidence field for `mdanalysis-trajectory-analysis`.
 - Fill one sample-data metadata field for the first BioPilot demo candidate.
+- Review one OpenSciFlow Skill refusal case or prompt template.
 - Point out one output that users may misinterpret.
 - Add an HPC/Slurm requirement that is missing from a manifest or workflow.
 - Suggest one narrow workflow template, with inputs and expected artifacts.
@@ -66,6 +67,10 @@ Current questions for v0.2:
 - Which run-record fields are mandatory for dry runs, smoke tests, and full workflow runs?
 - What model-weight checksum and license fields are mandatory before execution?
 - Which local-agent refusal rules should become required behavior?
+
+OpenSciFlow Skill review:
+
+- https://github.com/OpenSciFlow/opensciflow-skill
 
 RFC outline:
 
