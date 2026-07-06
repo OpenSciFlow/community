@@ -116,8 +116,12 @@ def paste_screenshot(
     screenshot_name: str,
     box: tuple[int, int, int, int],
     source_crop: tuple[int, int, int, int] | None = None,
-):
-    src = Image.open(SCREENSHOTS / screenshot_name).convert("RGB")
+) -> bool:
+    screenshot_path = SCREENSHOTS / screenshot_name
+    if not screenshot_path.exists():
+        return False
+
+    src = Image.open(screenshot_path).convert("RGB")
     if source_crop is not None:
         src = src.crop(source_crop)
     x1, y1, x2, y2 = box
@@ -130,6 +134,7 @@ def paste_screenshot(
 
     round_rect(draw, box, 28, "#ffffff", "#cbd5e1", 2)
     img.paste(cropped, (x1 + 18, y1 + 18))
+    return True
 
 
 def card_01():
@@ -185,7 +190,7 @@ def card_03():
 
 def card_04():
     img, draw = base("已经公开在 GitHub\n不是停留在 PPT", "04 / GitHub", CYAN)
-    paste_screenshot(img, draw, "github-org.png", (72, 380, 1008, 1120), (0, 0, 900, 1420))
+    paste_screenshot(img, draw, "homepage-fresh-clean-main.png", (72, 380, 1008, 1120))
     draw_wrapped(
         draw,
         "公开仓库、manifest 草案、workflow 模板、community 文档已经上线。",
@@ -199,16 +204,29 @@ def card_04():
 
 def card_05():
     img, draw = base("本地 Agent 的安全原则\n不是随便执行 shell", "05 / Local agent", BLUE)
-    paste_screenshot(img, draw, "agent-contract.png", (72, 380, 1008, 1110))
-    round_rect(draw, (90, 1160, 990, 1260), 24, "#eff6ff", "#bfdbfe")
-    draw_wrapped(
-        draw,
-        "只执行 manifest 里审阅过的命令模板，并记录 run record。",
-        (125, 1186),
-        font(30, True),
-        BLUE,
-        800,
-    )
+    pasted = paste_screenshot(img, draw, "agent-contract.png", (72, 380, 1008, 1110))
+    if pasted:
+        round_rect(draw, (90, 1160, 990, 1260), 24, "#eff6ff", "#bfdbfe")
+        draw_wrapped(
+            draw,
+            "只执行 manifest 里审阅过的命令模板，并记录 run record。",
+            (125, 1186),
+            font(30, True),
+            BLUE,
+            800,
+        )
+    else:
+        y = 455
+        points = [
+            "不执行 LLM 临时生成的任意 shell",
+            "只渲染 manifest 里审阅过的命令模板",
+            "执行前检查输入、环境、权重、许可证和引用",
+            "执行后记录 run record：命令、版本、日志、产物和 hash",
+        ]
+        for point in points:
+            round_rect(draw, (90, y, 990, y + 120), 28, CARD, "#bfdbfe")
+            draw_wrapped(draw, point, (130, y + 34), font(30, True), INK, 800)
+            y += 150
     save(img, "05-local-agent-contract.png")
 
 

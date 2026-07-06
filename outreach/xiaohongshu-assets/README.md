@@ -17,14 +17,7 @@ Generated outreach assets for the first OpenSciFlow Xiaohongshu post.
 
 ## Screenshots
 
-`screenshots/` contains GitHub page screenshots for proof/context:
-
-- organization page;
-- scientific models page;
-- local agent contract;
-- promotion kit.
-
-Fresh homepage screenshots:
+`screenshots/` contains fresh GitHub homepage screenshots for proof/context:
 
 - `homepage-fresh-vertical.png`: full vertical homepage screenshot, `1242x1660`.
 - `homepage-fresh-desktop.png`: desktop homepage screenshot, `1600x1200`.
