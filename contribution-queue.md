@@ -14,6 +14,7 @@ These are small and useful:
 - Fill one R3 dry-run evidence field for `mdanalysis-trajectory-analysis`.
 - Fill one sample-data metadata field for the first BioPilot demo candidate.
 - Review one OpenSciFlow Skill refusal case or prompt template.
+- Review the OpenSciFlow Skill Slurm/GROMACS reviewed-wrapper example.
 - Point out one output that users may misinterpret.
 - Add an HPC/Slurm requirement that is missing from a manifest or workflow.
 - Suggest one narrow workflow template, with inputs and expected artifacts.
@@ -63,6 +64,7 @@ Sample-data metadata template:
 Current questions for v0.2:
 
 - Which command-template placeholders are safe enough for local execution?
+- Which wrapper-script review fields should be mandatory before Slurm or container submission?
 - How should optional workflow branches and fallback tools declare artifacts?
 - Which run-record fields are mandatory for dry runs, smoke tests, and full workflow runs?
 - What model-weight checksum and license fields are mandatory before execution?
@@ -71,6 +73,8 @@ Current questions for v0.2:
 OpenSciFlow Skill review:
 
 - https://github.com/OpenSciFlow/opensciflow-skill
+- https://github.com/OpenSciFlow/opensciflow-skill/blob/main/docs/schema-mapping.md
+- https://github.com/OpenSciFlow/opensciflow-skill/blob/main/docs/wrapper-review-checklist.md
 
 RFC outline:
 
@@ -89,6 +93,7 @@ Good issue titles:
 [workflow review] md-stability-analysis report limitations
 [workflow validation] fallback artifact handoff for protein-ligand-stability
 [hpc metadata] GROMACS Slurm requirements
+[skill review] Slurm reviewed-wrapper fields
 [safety] DiffDock output interpretation boundary
 [protocol review] v0.2 command template placeholders
 [sample data] MDAnalysisData license and citation metadata
