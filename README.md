@@ -15,6 +15,10 @@ Start with GitHub Issues and Discussions. Add Discord/Slack/Feishu only when the
 - Docs contributor
 - Maintainer
 
+## Contribution queue
+
+- Current contribution queue: `contribution-queue.md`
+
 ## Outreach
 
 - First wave targets: `outreach/first-wave-targets.md`
