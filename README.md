@@ -22,3 +22,4 @@ Start with GitHub Issues and Discussions. Add Discord/Slack/Feishu only when the
 - Outreach tracker: `outreach/outreach-tracker.md`
 - Email template: `outreach/email-template.md`
 - Launch posts: `outreach/launch-posts.md`
+- Promotion kit: `outreach/promotion-kit.md`
