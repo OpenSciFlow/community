@@ -23,4 +23,5 @@ Start with GitHub Issues and Discussions. Add Discord/Slack/Feishu only when the
 - Email template: `outreach/email-template.md`
 - Launch posts: `outreach/launch-posts.md`
 - Promotion kit: `outreach/promotion-kit.md`
+- Xiaohongshu post draft: `outreach/xiaohongshu-post.md`
 - Xiaohongshu assets: `outreach/xiaohongshu-assets/README.md`

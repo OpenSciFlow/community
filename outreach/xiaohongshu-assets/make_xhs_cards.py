@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import os
+import sys
 from pathlib import Path
 from textwrap import wrap
 
@@ -12,9 +14,28 @@ OUT.mkdir(parents=True, exist_ok=True)
 
 W, H = 1080, 1350
 
-FONT_DIR = Path("C:/Windows/Fonts")
-FONT_REG = FONT_DIR / "msyh.ttc"
-FONT_BOLD = FONT_DIR / "msyhbd.ttc"
+def font_candidates(bold: bool = False) -> list[Path]:
+    if sys.platform.startswith("win"):
+        font_dir = Path(os.environ.get("WINDIR", "Windows")) / "Fonts"
+        return [font_dir / ("msyhbd.ttc" if bold else "msyh.ttc"), font_dir / "simhei.ttf"]
+    if sys.platform == "darwin":
+        return [Path("/System/Library/Fonts/PingFang.ttc"), Path("/System/Library/Fonts/STHeiti Medium.ttc")]
+    return [
+        Path("/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc" if bold else "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"),
+        Path("/usr/share/fonts/truetype/noto/NotoSansCJK-Bold.ttc" if bold else "/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc"),
+        Path("/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"),
+    ]
+
+
+def pick_font(bold: bool = False) -> Path:
+    for candidate in font_candidates(bold):
+        if candidate.exists():
+            return candidate
+    raise FileNotFoundError("No CJK font found. Install Microsoft YaHei, PingFang, Noto Sans CJK, or WenQuanYi.")
+
+
+FONT_REG = pick_font(False)
+FONT_BOLD = pick_font(True)
 
 INK = "#0f172a"
 MUTED = "#475569"
