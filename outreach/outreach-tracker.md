@@ -57,6 +57,12 @@ Status values:
 | 2026-07-06 | MatterSim | sent | https://github.com/microsoft/mattersim/discussions/167 | Asked for correction/feedback on atomistic model landscape classification and future manifest fields |
 | 2026-07-06 | Nucleotide Transformer | sent | https://github.com/instadeepai/nucleotide-transformer/issues/146 | Asked for correction/feedback on genomics foundation model classification and future manifest fields |
 
+## Public/social posts
+
+| Date | Channel | Status | Link | Notes |
+|---|---|---|---|---|
+| 2026-07-06 | Xiaohongshu | planned | TBD | Use `outreach/xiaohongshu-assets/cards/` and `outreach/launch-posts.md`; keep tone personal and correction-seeking. |
+
 ## Response checks
 
 | Checked at | Result |
