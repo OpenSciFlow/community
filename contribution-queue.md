@@ -65,6 +65,8 @@ Current priority:
 Artifact handoff rules:
 
 - https://github.com/OpenSciFlow/workflow-templates/blob/main/docs/artifact-handoff-validation.md
+- https://github.com/OpenSciFlow/workflow-templates/blob/main/docs/reproducibility-validation.md
+- https://github.com/OpenSciFlow/workflow-templates/blob/main/docs/protein-template-review-matrix.md
 
 Sample-data metadata template:
 
