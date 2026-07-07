@@ -15,6 +15,7 @@ These are small and useful:
 - Fill one sample-data metadata field for the first BioPilot demo candidate.
 - Review the BioPilot demo request schema and minimal runner contract.
 - Review the BioPilot blocked plan-response fixture.
+- Review the BioPilot manifest/workflow artifact-resolution summary.
 - Review one OpenSciFlow Skill refusal case or prompt template.
 - Review the BioPilot-to-Skill run-record crosswalk.
 - Review the OpenSciFlow Skill Slurm/GROMACS or Slurm/MACE reviewed-wrapper example.
@@ -72,7 +73,9 @@ Sample-data metadata template:
 BioPilot runner contract:
 
 - https://github.com/OpenSciFlow/biopilot-prototype/blob/main/docs/minimal-runner-contract.md
+- https://github.com/OpenSciFlow/biopilot-prototype/blob/main/docs/manifest-workflow-loading.md
 - https://github.com/OpenSciFlow/biopilot-prototype/blob/main/examples/protein-md-stability/plan-response.blocked.json
+- https://github.com/OpenSciFlow/biopilot-prototype/blob/main/examples/protein-md-stability/artifact-resolution.local.json
 
 ## Protocol review queue
 
