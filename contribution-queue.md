@@ -15,7 +15,7 @@ These are small and useful:
 - Fill one sample-data metadata field for the first BioPilot demo candidate.
 - Review the BioPilot demo request schema and minimal runner contract.
 - Review one OpenSciFlow Skill refusal case or prompt template.
-- Review the OpenSciFlow Skill Slurm/GROMACS reviewed-wrapper example.
+- Review the OpenSciFlow Skill Slurm/GROMACS or Slurm/MACE reviewed-wrapper example.
 - Point out one output that users may misinterpret.
 - Add an HPC/Slurm requirement that is missing from a manifest or workflow.
 - Suggest one narrow workflow template, with inputs and expected artifacts.
@@ -28,9 +28,9 @@ Current priority:
 |---|---|---|
 | `mdanalysis-trajectory-analysis` | Move toward `R3 dry-run ready` | Dry-run command, package versions, report outputs |
 | `gromacs-md-stability` | Improve HPC/local execution metadata | Slurm options, modules, output conventions |
+| `mace-interatomic-potential` | Improve MACE wrapper metadata | Model file provenance, GPU request, module/container assumptions |
 | `diffdock-docking` | Keep safety boundaries precise | Model weights, output interpretation, docking non-claims |
 | `proteinmpnn-sequence-design` | Improve sequence-design boundaries | Weight sources, output artifacts, design limitations |
-| `mace-interatomic-potential` | Improve atomistic-model metadata | Model file provenance, applicability domain, hardware |
 
 R3 evidence template:
 
@@ -48,6 +48,7 @@ Current priority:
 |---|---|---|
 | `md-stability-analysis` | First BioPilot demo workflow | Example dataset, artifact handoff, report limitations |
 | `gromacs-rmsd-slurm` | Review HPC submission boundary | Slurm account/partition policy, wrapper metadata, stdout/stderr artifacts |
+| `mace-evaluation-slurm` | Review materials/HPC wrapper boundary | GPU resources, model weight metadata, applicability-domain warnings |
 | `protein-ligand-stability` | Clarify non-claims | Fallback-specific artifact handoff and binding-evidence boundaries |
 | `mutation-impact-analysis` | Tighten task boundary | Avoid claims about pathogenicity or functional proof |
 | `ptm-dynamics-analysis` | Clarify input requirements | Paired structure/trajectory assumptions |
@@ -99,6 +100,7 @@ Good issue titles:
 [workflow review] md-stability-analysis report limitations
 [workflow validation] fallback artifact handoff for protein-ligand-stability
 [hpc metadata] GROMACS Slurm requirements
+[hpc metadata] MACE Slurm GPU request fields
 [skill review] Slurm reviewed-wrapper fields
 [safety] DiffDock output interpretation boundary
 [protocol review] v0.2 command template placeholders
