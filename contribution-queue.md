@@ -94,6 +94,7 @@ OpenSciFlow Skill review:
 
 - https://github.com/OpenSciFlow/opensciflow-skill
 - https://github.com/OpenSciFlow/opensciflow-skill/blob/main/docs/coding-agent-behavior-review.md
+- https://github.com/OpenSciFlow/opensciflow-skill/blob/main/docs/slurm-workflow-alignment.md
 - https://github.com/OpenSciFlow/opensciflow-skill/blob/main/docs/schema-mapping.md
 - https://github.com/OpenSciFlow/opensciflow-skill/blob/main/docs/run-record-alignment.md
 - https://github.com/OpenSciFlow/opensciflow-skill/blob/main/docs/wrapper-review-checklist.md
