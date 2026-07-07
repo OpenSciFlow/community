@@ -47,6 +47,7 @@ Required vs optional manifest fields:
 HPC/Slurm metadata guide:
 
 - https://github.com/OpenSciFlow/plugin-manifest/blob/main/docs/hpc-slurm-metadata.md
+- https://github.com/OpenSciFlow/plugin-manifest/blob/main/docs/reviewed-wrapper-fields.md
 
 ## Workflow review queue
 
