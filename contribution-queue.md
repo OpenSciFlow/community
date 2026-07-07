@@ -15,6 +15,7 @@ These are small and useful:
 - Fill one sample-data metadata field for the first BioPilot demo candidate.
 - Review the BioPilot demo request schema and minimal runner contract.
 - Review one OpenSciFlow Skill refusal case or prompt template.
+- Review the BioPilot-to-Skill run-record crosswalk.
 - Review the OpenSciFlow Skill Slurm/GROMACS or Slurm/MACE reviewed-wrapper example.
 - Point out one output that users may misinterpret.
 - Add an HPC/Slurm requirement that is missing from a manifest or workflow.
@@ -81,6 +82,7 @@ OpenSciFlow Skill review:
 
 - https://github.com/OpenSciFlow/opensciflow-skill
 - https://github.com/OpenSciFlow/opensciflow-skill/blob/main/docs/schema-mapping.md
+- https://github.com/OpenSciFlow/opensciflow-skill/blob/main/docs/run-record-alignment.md
 - https://github.com/OpenSciFlow/opensciflow-skill/blob/main/docs/wrapper-review-checklist.md
 
 RFC outline:
