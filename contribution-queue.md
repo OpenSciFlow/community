@@ -18,6 +18,7 @@ These are small and useful:
 - Review one OpenSciFlow Skill refusal case or prompt template.
 - Review the BioPilot-to-Skill run-record crosswalk.
 - Review the OpenSciFlow Skill Slurm/GROMACS or Slurm/MACE reviewed-wrapper example.
+- Review whether the required vs optional manifest-field boundary is too strict, too loose, or missing a case.
 - Point out one output that users may misinterpret.
 - Add an HPC/Slurm requirement that is missing from a manifest or workflow.
 - Suggest one narrow workflow template, with inputs and expected artifacts.
@@ -37,6 +38,10 @@ Current priority:
 R3 evidence template:
 
 - https://github.com/OpenSciFlow/plugin-manifest/blob/main/docs/r3-evidence-template.md
+
+Required vs optional manifest fields:
+
+- https://github.com/OpenSciFlow/plugin-manifest/blob/main/docs/required-vs-optional-fields.md
 
 HPC/Slurm metadata guide:
 

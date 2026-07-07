@@ -19,6 +19,7 @@ Start with GitHub Issues and Discussions. Add Discord/Slack/Feishu only when the
 
 - Current contribution queue: `contribution-queue.md`
 - Current protocol status: https://github.com/OpenSciFlow/docs/blob/main/reference/protocol-status.md
+- Manifest field policy: https://github.com/OpenSciFlow/docs/blob/main/reference/manifest-field-policy.md
 - v0.2 RFC outline: https://github.com/OpenSciFlow/docs/blob/main/reference/v0.2-rfc-outline.md
 
 ## Outreach
