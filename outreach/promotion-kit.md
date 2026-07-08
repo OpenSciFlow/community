@@ -1,30 +1,45 @@
-# OpenSciFlow promotion kit
+# OpenSciFlow Promotion Kit
 
 Use this when introducing OpenSciFlow publicly.
 
 ## One-line description
 
-OpenSciFlow is an early open initiative for standardizing AI for Science tool/model manifests, workflow templates, local/HPC execution metadata, and reproducible run records.
+OpenSciFlow is an early open initiative for building verified execution capsules for AI for Science tools.
 
 ## Short description
 
-OpenSciFlow helps scientific tools, models, and agents become easier to inspect, run, cite, validate, and reproduce. It starts with lightweight `opensciflow.yaml` plugin manifests, reusable workflow templates, and a local-first reference prototype called BioPilot.
+OpenSciFlow does not promise that scientific tools will run everywhere. It makes tool requirements, environment assumptions, verification status, run records, and known failures explicit and machine-readable.
+
+Core phrase:
+
+```text
+Not write once, run anywhere.
+Write once, check before run, record after run.
+```
 
 ## Chinese short description
 
-OpenSciFlow 是一个面向 AI for Science 的早期开源倡议，目标不是再造一个万能 AI Scientist，而是先定义一层可检查、可执行、可复现的协议层。
+OpenSciFlow 是一个面向 AI for Science 的早期开源倡议，目标是为科研工具构建 verified execution capsule。
 
-它希望通过 `opensciflow.yaml`、workflow template 和 run record，让科研工具和模型能够被本地 Agent 安全调用、记录、引用，并在本地服务器或 HPC 环境中复现运行。
+它不保证科研工具到处都能运行，而是把工具依赖、环境假设、验证状态、运行记录和失败边界变得显式、结构化、可检查。
+
+更简单地说：
+
+```text
+不是“一次描述，到处运行”。
+而是“一次描述，运行前可检查，运行后可记录”。
+```
 
 ## Longer description
 
-AI for Science is producing many useful models, toolkits, and agents, but practical lab adoption is still blocked by environment setup, model-weight provenance, hardware requirements, HPC execution, unclear citations, license ambiguity, weak run records, and scientific overclaiming.
+AI for Science is producing many useful models, toolkits, and agents, but practical adoption is still blocked by environment setup, model-weight provenance, hardware requirements, HPC execution, unclear citations, license ambiguity, weak run records, and scientific overclaiming.
 
-OpenSciFlow is a lightweight open layer between scientific tools, workflow engines, model hubs, and local/HPC execution. It does not replace upstream tools. It describes how tools and models should be inspected before execution, how workflows should compose reviewed plugins, and how each run should record inputs, commands, versions, artifacts, citations, and limitations.
+OpenSciFlow is a lightweight open layer for check-before-run and record-after-run scientific tool execution. It does not replace upstream tools. It packages execution-facing evidence into verified execution capsules: manifests, environment specs, reviewed command templates, smoke tests, run records, verified environment matrices, and known failure records.
 
 ## Public links
 
 - Organization: https://github.com/OpenSciFlow
+- Verified capsules: https://github.com/OpenSciFlow/verified-capsules
 - Landscape map: https://github.com/OpenSciFlow/awesome-ai4s-workflows
 - Plugin manifest draft: https://github.com/OpenSciFlow/plugin-manifest
 - Workflow templates: https://github.com/OpenSciFlow/workflow-templates
@@ -37,10 +52,11 @@ OpenSciFlow is a lightweight open layer between scientific tools, workflow engin
 Good asks:
 
 - Correct a project description.
-- Review manifest fields.
+- Review capsule or manifest fields.
 - Point to the right citation or license.
 - Tell us which outputs users commonly misinterpret.
 - Suggest missing safety or limitation notes.
+- Suggest smoke tests or known failure cases.
 - Suggest required metadata before a model/tool is executed.
 
 Bad asks:
@@ -55,23 +71,24 @@ Bad asks:
 - "OpenSciFlow partners with X" unless X explicitly agrees.
 - "OpenSciFlow validates scientific correctness."
 - "OpenSciFlow can autonomously do science."
+- "OpenSciFlow makes scientific tools run everywhere."
 - "Generated molecules, structures, or trajectories prove biological function, binding, efficacy, or clinical meaning."
 
 ## Suggested public post
 
 ```text
-We are building OpenSciFlow, an early open initiative for AI for Science workflow metadata: plugin manifests, workflow templates, local/HPC execution metadata, citations, limitations, and reproducible run records.
+We are building OpenSciFlow, an early open initiative for AI for Science verified execution capsules.
 
-The current focus is not a general autonomous scientist. It is a correction-friendly protocol layer that can help local agents run only reviewed scientific tools and record what happened.
+The current focus is not a general autonomous scientist and not a run-anywhere promise. It is a correction-friendly protocol layer for checking scientific tool requirements before execution and recording what happened after execution.
 
-Feedback welcome, especially on manifest fields, model-weight metadata, license/citation propagation, and scientific limitation notes:
+Feedback welcome, especially on capsule fields, smoke tests, known failures, model-weight metadata, license/citation propagation, and scientific limitation notes:
 https://github.com/OpenSciFlow
 ```
 
 ## Suggested maintainer outreach
 
 ```text
-We listed your project as a related AI for Science tool/model in OpenSciFlow. Could you check whether the description is accurate and tell us what metadata a workflow runner should record before executing or citing your tool?
+We listed your project as a related AI for Science tool/model in OpenSciFlow. Could you check whether the description is accurate and tell us what metadata, smoke tests, or known failure cases a local agent should check before executing or citing your tool?
 
 This is not a request for adoption or integration. A short correction comment is enough.
 ```
@@ -84,9 +101,12 @@ Use:
 early open initiative
 draft protocol
 correction-friendly map
-local-first execution metadata
-reviewed manifests
-reproducible run records
+verified execution capsule
+check-before-run
+record-after-run
+reviewed command templates
+bounded run records
+known failure records
 ```
 
 Avoid:
@@ -96,6 +116,7 @@ standard body
 certified ecosystem
 official integration
 autonomous science platform
+run-anywhere system
 drug discovery system
 clinical decision system
 ```
