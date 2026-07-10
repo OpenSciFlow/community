@@ -44,7 +44,7 @@ Avoid:
 
 | Date | Target | Channel | Link | Status | Notes |
 |---|---|---|---|---|---|
-| 2026-07-05 | BioBB | GitHub issue | https://github.com/bioexcel/biobb/issues/25 | sent | Asked for biomolecular workflow feedback |
+| 2026-07-05 | BioBB | GitHub issue | https://github.com/bioexcel/biobb/issues/25 | responded | Maintainer confirmed the short description and pointed to the BioBB landing page and `biobb_workflows` as concrete references |
 | 2026-07-05 | BioSimSpace | GitHub issue | https://github.com/OpenBioSim/biosimspace/issues/526 | sent | Asked for simulation interoperability feedback |
 | 2026-07-05 | MDAnalysis | GitHub discussion | https://github.com/MDAnalysis/mdanalysis/discussions/5417 | sent | Asked for trajectory-analysis feedback; follow-up added with manifest link |
 | 2026-07-05 | OpenMM | GitHub discussion | https://github.com/openmm/openmm/discussions/5333 | sent | Asked for local execution/environment feedback |

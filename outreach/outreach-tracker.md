@@ -13,7 +13,7 @@ Status values:
 
 | Target | Repository / channel | Status | Link | Ask | Notes |
 |---|---|---|---|---|---|
-| BioBB | GitHub issue | sent | https://github.com/bioexcel/biobb/issues/25 | Review biomolecular workflow/template metadata | High fit for protein workflows |
+| BioBB | GitHub issue | responded | https://github.com/bioexcel/biobb/issues/25 | Review biomolecular workflow/template metadata | Maintainer confirmed the short description and pointed to the BioBB landing page and `biobb_workflows`; inputs/outputs, environment, citation, license, and validation belong in workflow metadata |
 | BioSimSpace | GitHub issue | sent | https://github.com/OpenBioSim/biosimspace/issues/526 | Review molecular simulation interoperability metadata | High fit for simulation execution |
 | MDAnalysis | GitHub discussion | sent | https://github.com/MDAnalysis/mdanalysis/discussions/5417 | Review trajectory-analysis manifest/report outputs | Core MVP dependency; follow-up comment added with MDAnalysis manifest link |
 | OpenMM | GitHub discussion | sent | https://github.com/openmm/openmm/discussions/5333 | Review local execution and environment metadata | Python-friendly simulation target |
@@ -31,7 +31,7 @@ Status values:
 | MACE | GitHub discussion | sent | https://github.com/ACEsuit/mace/discussions/1510 | Review interatomic-potential manifest fields | Concrete manifest and review notes exist |
 | Protenix | GitHub discussion | sent | https://github.com/bytedance/Protenix/discussions/325 | Review landscape entry and future manifest fields | Entry correction request before drafting manifest |
 | CHGNet | GitHub discussion | sent | https://github.com/CederGroupHub/chgnet/discussions/251 | Review landscape entry and future manifest fields | Entry correction request before drafting manifest |
-| REINVENT4 | GitHub discussion | sent | https://github.com/MolecularAI/REINVENT4/discussions/352 | Review landscape entry and future generative-chemistry manifest fields | Entry correction request before drafting manifest |
+| REINVENT4 | GitHub discussion | responded | https://github.com/MolecularAI/REINVENT4/discussions/352 | Review landscape entry and future generative-chemistry manifest fields | Maintainer confirmed the classification and repository; Apache-2.0 license; execution metadata and limitations must be scoped to a concrete workflow and supported by literature |
 | MatterSim | GitHub discussion | sent | https://github.com/microsoft/mattersim/discussions/167 | Review landscape entry and future atomistic-model manifest fields | Entry correction request before drafting manifest |
 | Nucleotide Transformer | GitHub issue | sent | https://github.com/instadeepai/nucleotide-transformer/issues/146 | Review landscape entry and future sequence-model manifest fields | Entry correction request before drafting manifest |
 
@@ -56,6 +56,8 @@ Status values:
 | 2026-07-06 | REINVENT4 | sent | https://github.com/MolecularAI/REINVENT4/discussions/352 | Asked for correction/feedback on generative chemistry landscape classification and future manifest fields |
 | 2026-07-06 | MatterSim | sent | https://github.com/microsoft/mattersim/discussions/167 | Asked for correction/feedback on atomistic model landscape classification and future manifest fields |
 | 2026-07-06 | Nucleotide Transformer | sent | https://github.com/instadeepai/nucleotide-transformer/issues/146 | Asked for correction/feedback on genomics foundation model classification and future manifest fields |
+| 2026-07-10 | BioBB | responded | https://github.com/bioexcel/biobb/issues/25#issuecomment-4927147325 | Maintainer confirmed the landscape description and identified `biobb_workflows` as the concrete metadata/workflow reference |
+| 2026-07-10 | REINVENT4 | responded | https://github.com/MolecularAI/REINVENT4/discussions/352 | Maintainer confirmed the classification, canonical repository, and Apache-2.0 license; warned that metadata and limitations are workflow-dependent |
 
 ## Public/social posts
 
@@ -69,3 +71,4 @@ Status values:
 |---|---|
 | 2026-07-05 | No external replies yet. Issue-type outreach remains open with zero comments. Discussion-type outreach remains open; MDAnalysis has one self-comment containing the manifest link. |
 | 2026-07-06 | Model-wave outreach sent and checked. Boltz, ProteinMPNN, MACE, Protenix, and CHGNet are open with zero external comments at check time. |
+| 2026-07-10 | All 17 tracked outreach threads rechecked. Two external maintainer replies were found: BioBB and REINVENT4. MDAnalysis has one author follow-up only; the other 14 threads have no external comments. Three additional email search hits were historical GitHub Actions failure notifications, not outreach replies. |
